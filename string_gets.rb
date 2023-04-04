@@ -6,4 +6,9 @@
 # hannah
 # "Hello, Hannah!"
 
-name = gets.chomp
+p "Whats your name?"
+
+their_name=gets
+
+name = their_name.chomp.capitalize
+p "Hello, " + name + "!"
